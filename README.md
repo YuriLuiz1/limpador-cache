@@ -18,24 +18,9 @@ O Chrome Cache Cleaner é uma ferramenta desenvolvida em Go que permite limpar r
 ## 🚀 Como Usar
 
 ### Windows
-1. Baixe o arquivo `chrome-cleaner.exe`
-2. Feche completamente o Google Chrome
-3. Execute o programa:
-   ```cmd
-   chrome-cleaner.exe
-   ```
-
-### Linux/macOS
-1. Baixe o arquivo `chrome-cleaner`
-2. Torne o arquivo executável:
-   ```bash
-   chmod +x chrome-cleaner
-   ```
-3. Feche completamente o Google Chrome
-4. Execute o programa:
-   ```bash
-   ./chrome-cleaner
-   ```
+1. Dê um clone no projeto
+2. Vá até a pasta que utilizou o clone
+3. Execute o binário
 
 ## 📁 O que é limpo
 
