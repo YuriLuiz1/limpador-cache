@@ -31,6 +31,8 @@ O Chrome Cache Cleaner é uma ferramenta desenvolvida em Go que permite limpar r
 
 - ( GOOS=darwin GOARCH=arm64 go build -o chrome-cleaner-macos-silicon main.go ) * MACOS APPLE SILICON (M1/M2/M3) *
 
+- Ou rode o Makefile
+
 
 ### LINUX
 1. Dê um clone no projeto
@@ -45,6 +47,7 @@ O Chrome Cache Cleaner é uma ferramenta desenvolvida em Go que permite limpar r
 
 - ( GOOS=linux GOARCH=arm go build -o chrome-cleaner-linux-arm main.go ) * LINUX ARM RASPBERRY PI MAIS ANTIGO *
 
+- Ou rode o Makefile
 
 ## 📁 O que é limpo
 
