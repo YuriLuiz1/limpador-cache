@@ -82,17 +82,16 @@ Se você deseja compilar o programa a partir do código fonte:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/chrome-cache-cleaner.git
-cd chrome-cache-cleaner
+git clone https://github.com/YuriLuiz1/limpador-cache.git
 
 # Compile para o seu sistema
-go build -o chrome-cleaner
+go build main.go
 
 # Ou compile para Windows (a partir de Linux/macOS)
-GOOS=windows GOARCH=amd64 go build -o chrome-cleaner.exe
+GOOS=windows GOARCH=amd64 go build -o main.go
 
 # Ou compile para Linux (a partir de Windows/macOS)
-GOOS=linux GOARCH=amd64 go build -o chrome-cleaner
+GOOS=linux GOARCH=amd64 go build -o main.go
 ```
 
 ## 🔧 Tecnologias Utilizadas
