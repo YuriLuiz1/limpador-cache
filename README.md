@@ -31,11 +31,11 @@ O Chrome Cache Cleaner é uma ferramenta desenvolvida em Go que permite limpar r
 ### LINUX
 1. Dê um clone no projeto
 2. Vá até a pasta que utilizou o clone ( via terminal )
-3. Rode dentro da pasta do arquivo main.go em um terminal
-( GOOS=linux GOARCH=amd64 go build -o chrome-cleaner-linux-x64 main.go ) * LINUX 64 *
-( GOOS=linux GOARCH=386 go build -o chrome-cleaner-linux-x32 main.go ) * LINUX 32 *
-( GOOS=linux GOARCH=arm64 go build -o chrome-cleaner-linux-arm64 main.go ) * LINUX ARM 64 RASPBERRY PI 4 SERVIDORES ARM *
-( GOOS=linux GOARCH=arm go build -o chrome-cleaner-linux-arm main.go ) * LINUX ARM RASPBERRY PI MAIS ANTIGO *
+3. Rode dentro da pasta do arquivo main.go em um terminal \n
+( GOOS=linux GOARCH=amd64 go build -o chrome-cleaner-linux-x64 main.go ) * LINUX 64 * \n
+( GOOS=linux GOARCH=386 go build -o chrome-cleaner-linux-x32 main.go ) * LINUX 32 * \n
+( GOOS=linux GOARCH=arm64 go build -o chrome-cleaner-linux-arm64 main.go ) * LINUX ARM 64 RASPBERRY PI 4 SERVIDORES ARM * \n
+( GOOS=linux GOARCH=arm go build -o chrome-cleaner-linux-arm main.go ) * LINUX ARM RASPBERRY PI MAIS ANTIGO * \n
 
 ## 📁 O que é limpo
 
