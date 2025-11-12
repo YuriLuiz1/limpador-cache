@@ -1,5 +1,8 @@
 # Chrome Cache Cleaner 🧹
 
+![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat&logo=go)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
+
 Um utilitário de linha de comando simples e eficiente para limpar automaticamente todos os caches do Google Chrome sem a necessidade de abrir o navegador ou fazer configurações manuais.
 
 ## 📋 Descrição
@@ -17,37 +20,19 @@ O Chrome Cache Cleaner é uma ferramenta desenvolvida em Go que permite limpar r
 
 ## 🚀 Como Usar
 
-### Windows
-1. Dê um clone no projeto
-2. Vá até a pasta que utilizou o clone
-3. Execute o binário
+### Download Rápido (Usuários)
+1. Baixe o executável da [página de releases](link)
+2. Feche completamente o Google Chrome
+3. Execute o arquivo baixado
+4. Pronto! Cache limpo ✨
 
-### MAC/OS
-1. Dê um clone no projeto
-2. Vá até a pasta que utilizou o clone ( via terminal )
-3. Rode dentro da pasta do arquivo main.go em um terminal
-
-- ( GOOS=darwin GOARCH=amd64 go build -o chrome-cleaner-intel main.go )
-
-- ( GOOS=darwin GOARCH=arm64 go build -o chrome-cleaner-macos-silicon main.go ) * MACOS APPLE SILICON (M1/M2/M3) *
-
-- Ou rode o Makefile
-
-
-### LINUX
-1. Dê um clone no projeto
-2. Vá até a pasta que utilizou o clone ( via terminal )
-3. Rode dentro da pasta do arquivo main.go em um terminal
-
-- ( GOOS=linux GOARCH=amd64 go build -o chrome-cleaner-linux-x64 main.go ) * LINUX 64 *
-
-- ( GOOS=linux GOARCH=386 go build -o chrome-cleaner-linux-x32 main.go ) * LINUX 32 *
-
-- ( GOOS=linux GOARCH=arm64 go build -o chrome-cleaner-linux-arm64 main.go ) * LINUX ARM 64 RASPBERRY PI 4 SERVIDORES ARM *
-
-- ( GOOS=linux GOARCH=arm go build -o chrome-cleaner-linux-arm main.go ) * LINUX ARM RASPBERRY PI MAIS ANTIGO *
-
-- Ou rode o Makefile
+### Para Desenvolvedores
+```bash
+# Clone e compile
+git clone https://github.com/YuriLuiz1/limpador-cache.git
+cd limpador-cache
+go build -o chrome-cleaner main.go
+```
 
 ## 📁 O que é limpo
 
@@ -159,6 +144,9 @@ Contribuições são bem-vindas! Para contribuir:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ## ❓ FAQ
+
+**P: Quando devo usar este programa?**
+R: Sempre que notar lentidão no Chrome, após testes de desenvolvimento web, ou quando precisar liberar espaço em disco rapidamente.
 
 **P: O programa funciona com outros navegadores baseados em Chromium?**
 R: Atualmente suporta apenas Google Chrome. Suporte para Edge, Brave e outros navegadores Chromium está planejado para versões futuras.
